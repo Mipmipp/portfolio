@@ -1,0 +1,30 @@
+#presentation-container {
+    text-align: center;
+}
+
+#h3 {
+    font-family: 'Bitter', serif !important;
+    font-weight: 300 !important;
+    margin-bottom: 5px !important;
+}
+
+#typeit-text {
+    font-family: 'inter' !important;
+    font-size: 22px !important;
+    font-weight: 300 !important;
+}
+
+h4 {
+    font-family: 'inter' !important;
+    font-weight: 300 !important;
+    margin-top: 50px !important;
+    margin-bottom: 10px !important;
+}
+
+span {
+    font-weight: 500;
+}
+
+button {
+    margin-top: 10px !important;
+}
