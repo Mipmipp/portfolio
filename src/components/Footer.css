@@ -1,0 +1,85 @@
+#footer-container {
+    width: 100%;
+    background: var(--mui-palette-darkBackground-main);
+    text-align: center;
+}
+
+#footer-grid {
+    place-content: center;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+#footer-grid p {
+    margin: 0;
+    font-size: 3.5rem;
+    font-family: 'Noto Sans', sans-serif !important;
+    font-weight: 500 !important;
+    color: var(--mui-palette-secondaryText-main);
+}
+
+#footer-buttons {
+    place-content: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#footer-buttons div {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-button {
+    background: var(--mui-palette-secondaryText-main) !important;
+    color: var(--mui-palette-darkBackground-main) !important;
+}
+
+.footer-button:hover {
+    background: var(--mui-palette-importantText-main) !important;
+}
+
+#footer-container-cv-button {
+    padding-bottom: 60px;
+}
+
+#footer-cv-button {
+    background: var(--mui-palette-secondaryText-main);
+    border-color: var(--mui-palette-secondaryText-main);
+    color: var(--mui-palette-darkBackground-main);
+}
+
+#footer-cv-button:hover {
+    background: var(--mui-palette-importantText-main) !important;
+    border-color: var(--mui-palette-importantText-main) !important;
+}
+
+#footer-container-information {
+    place-items: center;
+    display: grid;
+    margin-bottom: 30px;
+}
+
+#footer-divider {
+    opacity: 40%;
+    width: 60%;
+    margin-bottom: 30px;
+    background: var(--mui-palette-secondaryText-main);
+}
+
+#footer-text-information {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif !important;
+    font-weight: 600 !important;
+    color: var(--mui-palette-secondaryText-main);
+}
+
+#footer-copyright {
+    padding-bottom: 30px;
+    font-family: 'Noto Sans', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+#wave {
+    width: 100%;
+}
