@@ -1,0 +1,57 @@
+@media only screen and (max-width: 900px) {
+    #skills-quote-text {
+        font-size: 1.4rem !important;
+        text-align: center !important;
+    }
+}
+
+#grid-skills {
+    width: 80%;
+    max-width: 1400px !important;
+    margin-top: 75px;
+    margin-bottom: 177px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: var(--mui-palette-surfaceOnLightBackground-main);
+    border-radius: 25px;
+}
+
+.skill-icon {
+    aspect-ratio: 3/3;
+    object-fit: contain;
+    width: 35%;
+    transition: all .2s ease-in-out;
+}
+  
+.skill-icon:hover {
+    transform: scale(1.2);
+}
+
+#container-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align-last: center !important;
+}
+
+#skills-quote-container {
+    justify-self: center;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-self: self-end;
+    position: absolute;
+    width: 90%;
+    max-width: 1680px !important;
+    height: 150px;
+    margin-bottom: -75px;
+    background: var(--mui-palette-primaryBackground-main);
+    border-radius: 20px;
+}
+
+#skills-quote-text {
+    font-size: 1.7rem;
+    font-family: 'Noto Sans', sans-serif !important;
+    font-weight: 500 !important;
+    color: var(--mui-palette-primaryText-main);
+}
