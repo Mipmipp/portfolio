@@ -1,0 +1,29 @@
+#nav {
+    box-shadow: none !important;
+    position: initial;
+    padding-right: 10%;
+    padding-left: 10%;
+    background: var(--mui-palette-primaryBackground-main);
+}
+
+#nav-creator-name {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    color: var(--mui-palette-terciaryText-main);
+}
+
+#nav-box-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
+    margin-top: 5px;
+}
+
+#nav-box-button {
+    cursor: pointer;
+    color: var(--mui-palette-terciaryText-main);
+}
+
+#change-theme-icon {
+    font-size: 25px;
+}
