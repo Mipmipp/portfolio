@@ -1,51 +1,90 @@
-import React from "react";
-import { Typography, Button } from "@mui/material";
-import { motion } from "framer-motion"
+import React, { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+import { IconButton, Box, Button, Link } from "@mui/material";
+import { motion, useAnimation } from "framer-motion";
 import TypeIt from "typeit-react";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import {
+    titleAnimationVariants,
+    informationAnimationVariants,
+    buttonAnimationVariants,
+} from "../../data/animations";
 import "./Presentation.css";
 
-function Presentation() {
-    return(
+export default function Presentation() {
+    const controls = useAnimation();
+    const [ref, inView] = useInView();
+
+    useEffect(() => {
+        if (inView) {
+            controls.start("visible");
+        }
+    }, [controls, inView]);
+
+    return (
         <div id="presentation-container">
-            <Typography
-                id="h3"
-                variant="h3"
-                component={motion.h4} 
-                initial={{y: -50}} 
-                animate={{y: 0}}
-                transition={{duration: 1.1}}
+            <motion.h1
+                id="title"
+                ref={ref}
+                animate={controls}
+                initial="hidden"
+                variants={titleAnimationVariants}
             >
                 Hi. I'm <span>Sebastian</span>!
-            </Typography>
+            </motion.h1>
             <TypeIt
                 id="typeit-text"
                 options={{
-                    strings: ["you can tell me Mipmipp"], 
-                    speed: 110, 
-                    waitUntilVisible: true
+                    strings: ["you can tell me Mipmipp"],
+                    waitUntilVisible: true,
+                    speed: 110,
+                    startDelay: 1000,
                 }}
             />
-            <Typography 
+            <motion.h4
+                id="second-text"
                 variant="h4"
-                component={motion.h4}
-                initial={{y: -50}} 
-                animate={{y: 0}}
-                transition={{duration: 1.6}}
+                ref={ref}
+                animate={controls}
+                initial="hidden"
+                variants={informationAnimationVariants}
             >
-                I'm <span>front-end developer</span> and I work with <span>React</span>.
-            </Typography>
-            <Button
-                variant="outlined"
-                size="large"
-                component={motion.button} 
-                initial={{y: 100}} 
-                animate={{y: 0}}
-                transition={{duration: 1.6}}
-            >
-                download cv
-            </Button>
+                I'm a <span>front-end developer</span> and I work with{" "}
+                <span>React</span>.
+            </motion.h4>
+            <Box id="presentation-buttons">
+                <Button
+                    id="cv-button"
+                    variant="outlined"
+                    size="large"
+                    component={motion.button}
+                    ref={ref}
+                    animate={controls}
+                    initial="hidden"
+                    variants={buttonAnimationVariants}
+                >
+                    download cv
+                </Button>
+                <Link
+                    href="https://github.com/Mipmipp"
+                    target="_blank"
+                    underline="none"
+                >
+                    <Button
+                        startIcon={<GitHubIcon id="github-icon" />}
+                        size="small"
+                        color="primary"
+                        component={motion.button}
+                        ref={ref}
+                        animate={controls}
+                        initial="hidden"
+                        variants={buttonAnimationVariants}
+                        id="github-presentation-container"
+                    >
+                        <p id="github-text">Visit GitHub</p>
+                    </Button>
+                </Link>
+            </Box>
         </div>
-    )
+    );
 }
-
-export default Presentation;
