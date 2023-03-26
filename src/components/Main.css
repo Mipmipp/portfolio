@@ -1,0 +1,43 @@
+@media only screen and (max-width: 900px) {
+    .grid-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10% !important;
+    }
+}
+
+#main-presentation {
+    height: 700px;
+    background: var(--mui-palette-primaryBackground-main);
+}
+
+#projects {
+    display: grid;
+    justify-content: center;
+    margin-top: 0px !important;
+    background: var(--mui-palette-darkBackground-main);
+}
+
+#project-title {
+    justify-self: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    font-size: 3.5rem !important;
+    font-family: 'Noto Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: var(--mui-palette-secondaryText-main);
+}
+
+#skills {
+    background-color: var(--mui-palette-lightBackground-main);
+}
+
+#skills-title {
+    padding-top: 75px;
+    font-size: 3.5rem !important;
+    font-family: 'Noto Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: var(--mui-palette-secondaryText-main);
+    text-align-last: center;
+}
