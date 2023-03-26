@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--mui-palette-importantText-main) #121212;
+}
+  
+*::-webkit-scrollbar {
+    width: 12px;
+}
+  
+*::-webkit-scrollbar-track {
+    background: #121212;
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: var(--mui-palette-importantText-main);
+    border: 3px solid #121212;
+    border-radius: 20px;
+}
