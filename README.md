@@ -47,6 +47,3 @@ npm run start
 
  #### PC screenshot
 <img align="center" max-width="600" alt="mipmipp portfolio website screenshot on pc view" src="https://i.ibb.co/fdHFJwX/mipmipp-portfolio.png" />
-
- #### Mobile screenshot
-<img align="center" alt="mipmipp portfolio website screenshot on mobile view" src="https://i.ibb.co/b2WVLWS/mobile-2.png" />
