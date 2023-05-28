@@ -1,49 +1,53 @@
-<div align="center">
-  <img align="center" width="250" height="250" alt="Code image from Google" src="https://cdn-icons-png.flaticon.com/512/1005/1005142.png" />
-  <h3 align="center">Portfolio</h3>
-  <p align="center">made with react</p>
-</div>
+# ![Favicon](https://raw.githubusercontent.com/Mipmipp/portfolio/main/public/favicon.png)   Portfolio
 
-<hr />
+This is my portfolio website, where you can find information about me, my experience, projects, and skills.
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/948cc3bb-da0e-48f2-91ee-80c1185be367/deploy-status)](https://app.netlify.com/sites/mipmipp-portfolio/deploys)
+## Description
 
-<hr />
+This portfolio showcases my work and provides insights into my skills and experience. It includes information about my background, projects I have worked on, and my expertise in various technologies.
 
-This is my portfolio website.
-<br />
-Here you will find information about me, my experience, projects and my skills.
+## Deployment
 
-## Technology
-This portfolio is created using:
-- [React](https://reactjs.org) - React is a JavaScript library for building user interfaces.
-- [Framer motion](https://www.framer.com/motion/) - Framer motion is a simple and powerful React animation library.
-- [Material UI](https://mui.com/) - Material UI is an open-source React component library that implements Google's Material Design.
-- [TypeIt](https://www.typeitjs.com/) - TypeIt is the most versatile JavaScript tool for creating typewriter effects with a straightforward configuration.
+The portfolio is deployed and available online. You can visit it by clicking on the following link: [Portfolio Live Demo](https://portfolio-mipmipp.netlify.app/)
 
-## Demo
-You can visit my portfolio clicking [here](https://mipmipp-portfolio.netlify.app/) to go to the deploy made with Netlify.
+## Technologies Used
+
+- React: A JavaScript library for building user interfaces.
+- Framer Motion: A simple and powerful React animation library.
+- Material UI: An open-source React component library that implements Google's Material Design.
+- TypeIt: The most versatile JavaScript tool for creating typewriter effects with a straightforward configuration.
+
+## Features
+
+- Interactive and responsive design.
+- Smooth animations powered by Framer Motion.
+- Modern and visually appealing UI using Material UI components.
+- Typewriter effect for dynamic and engaging content using TypeIt.
+
 
 ## Installation
-#### Run the website locally
-```
-git clone https://github.com/Mipmipp/portfolio.git my portfolio
-```
-#### Install
 
+1. Clone this repository on your local machine.
+2. Open a terminal in the project folder.
+3. Run the following command to install the dependencies:
 ```bash
-# Install deps
 npm install
 ```
-
-#### Run server localhost
-
+4. Once the installation is complete, you can start the application with the following command:
 ```bash
 npm run start
 ```
+5. Access the application in your browser through the URL: http://localhost:3000.
+
+## Contact Me
+
+If you have any questions, suggestions, or feedback, feel free to reach out to me.
+
+- Email: [imipmipp@gmail.com](mailto:imipmipp@gmail.com)
 
 ## Screenshots
 
- #### PC screenshot
-<img align="center" max-width="600" alt="mipmipp portfolio website screenshot on pc view" src="https://i.ibb.co/fdHFJwX/mipmipp-portfolio.png" />
+Here are some screenshots of the Portfolio application:
+
+_Portfolio website view on PC._
+![PC view](https://raw.githubusercontent.com/Mipmipp/portfolio/main/src/assets/screenshot.png)
