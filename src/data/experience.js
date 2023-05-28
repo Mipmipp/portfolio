@@ -22,7 +22,7 @@ export const experience = [
         imagePath: "portfolio-preview",
         title: "Portfolio",
         description:
-            "Portfolio created with React, Material-UI, typeit and Framer Motion to animate it. It have dark mode. It's responsive.",
+            "Portfolio created with React, Material-UI, typeit and Framer Motion to animate it. It has dark mode. It's responsive.",
         deploy: "https://mipmipp-portfolio.netlify.app/",
         githubLink: "https://github.com/Mipmipp/portfolio",
     },
