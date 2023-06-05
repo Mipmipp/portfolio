@@ -5,7 +5,7 @@ export const experience = [
         title: "Pokedex",
         description:
             "Page created with React, React Query to handle cache, Material-UI for styling, and Victoria Chart for data visualization. It's responsive and includes a search bar, as well as light and dark mode support. Consuming PokeAPI.",
-        deploy: "https://pokedex-mipmipp.netlify.app/",
+        deploy: "https://pokex-mipmipp.netlify.app/",
         githubLink: "https://github.com/Mipmipp/pokex",
     },
     {
