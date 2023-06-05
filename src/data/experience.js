@@ -13,7 +13,7 @@ export const experience = [
         imagePath: "rickandmorty-preview",
         title: "Rick and Morty Wiki",
         description:
-            "Page created with HTML, CSS and Javascript with modules (ESM) and localStorage. It's responsive. Consuming Rick and Morty API.",
+            "Page created with HTML, CSS, Bootstrap, and JavaScript, utilizing modules (ESM) and localStorage. Responsive design. Consuming Rick and Morty API. Implements OOP principles, with classes, entities, mapper, and service wrappers. Tested with Jest.",
         deploy: "https://rickandmortywiki-mipmipp.netlify.app/",
         githubLink: "https://github.com/Mipmipp/rick-and-morty-wiki",
     },

@@ -16,6 +16,10 @@ export const skills = [
         imagePath: "cypress-io-icon",
     },
     {
+        title: "Jest",
+        imagePath: "jest-icon",
+    },
+    {
         title: "React",
         imagePath: "react-icon",
     },
@@ -46,10 +50,6 @@ export const skills = [
     {
         title: "Prettier",
         imagePath: "prettier-icon",
-    },
-    {
-        title: "NPM",
-        imagePath: "npm-icon",
     },
     {
         title: "Visual Studio Code",
